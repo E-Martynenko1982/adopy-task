@@ -1,136 +1,317 @@
 <!DOCTYPE html>
-<html lang="en" style="margin:0; padding:0;">
+<html lang="en" style="margin: 0; padding: 0">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="max-width=device-max-width,initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Email Example</title>
 </head>
 
-<body style="margin:0; padding:0; width:1440px;
- height:1448px; 
- box-sizing: border-box; 
- background-color:#9894FB;
-font-family: 'Inter', sans-serif;
- ">
-
-  <div style="margin:0 auto; padding:0 25px; background-color:#ffffff; width:600px; 
-  height: 100%; position: relative; z-index: 9;">
-    <div style="max-width:329px; max-height: 206px; position: absolute; top: 0; left: 0; z-index: 0">
-      <img src="/images/flowers.svg" alt="Flowers" style="width:100%; height:auto;" />
-    </div>
-
-    <main style="width:600px; max-width:100%;  margin:0 auto;">
-
-
-      <header style=" text-align:center;">
-        <img src="/images/top-logo-bg.svg" alt="MyLogo"
-          style="display:block; width:249px; height:64px; margin:0 auto;" />
-        <img src="/images/logo.svg" alt="text-logo" style="
-        display:block;
-        width: 126px; 
-        height: 35px; 
-        position: absolute;
-        top: 15px;
-        left: 265px;
+<body style="
+      margin: 0;
+      padding: 0;
+      max-width: 1440px;
+      height: 100%;
+      box-sizing: border-box;
+      background-color: #9894fb;
+      font-family: 'Inter', sans-serif;
+    ">
+  <div style="
+        margin: 0 auto;
+        padding: 0 25px 50px;
+        background-color: #ffffff;
+        max-width: 600px;
+        height: 100%;
+        position: relative;
+      ">
+    <div style="
+          max-width: 329px;
+          max-height: 206px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          pointer-events: none;
+          z-index: 0;
         ">
-      </header>
-
-
-      <section style="width: 400px; height: 378px; margin: 50px auto 0; display: flex; flex-direction: column;">
-        <div style="display:flex; align-items:center; justify-content:flex-end;">
-          <div style="width: 206px; height: 66px;">
-            <h2 style="margin:0; color:#2a3048; font-size:30px; ">
+      <img src="/images/flowers.svg" alt="Flowers" style="max-width: 100%; height: auto" />
+    </div>
+    <header style="text-align: center">
+      <img src="/images/top-logo-bg.svg" alt="MyLogo"
+        style="display: block; max-width: 249px; height: 64px; margin: 0 auto" />
+      <img src="/images/logo.svg" alt="text-logo" style="
+            display: block;
+            max-width: 126px;
+            height: 35px;
+            position: absolute;
+            top: 15px;
+            left: 265px;
+          " />
+    </header>
+    <main style="margin: 0 auto; position: relative; z-index: 1">
+      <section style="
+            max-width: 400px;
+            height: 378px;
+            margin: 50px auto 0;
+            display: flex;
+            flex-direction: column;
+          ">
+        <div style="display: flex; align-items: center; justify-content: flex-end">
+          <div style="max-width: 206px; height: 66px">
+            <h2 style="margin: 0; color: #2a3048; font-size: 30px; font-weight: normal">
               It’s a little title
             </h2>
-            <p style="margin:5px 0 0 0; color:#2a3048; font-size:16px;">
+            <p style="margin: 5px 0 0 0; color: #2a3048; font-size: 16px; font-weight: normal">
               Lorem ipsum dolor sit amet
             </p>
           </div>
         </div>
-        <div style="text-align:center;">
-          <!-- Четыре ссылки в два ряда (пример без таблицы) -->
-          <div style="height: 186px; width: 100%; padding: 0 10px; margin-top: 50px;
-            display: grid; grid-template-columns: 1fr 1fr; gap: 20px; z-index: 9;">
-            <div style="width: 180px; height: 83px; text-decoration:none; border: 10px solid #3333ff; 
-                             margin:5px; border-radius:20px;  
-                             ">
-              <p
-                style="display: inline-block; width: 117px; height: 24px; font-size: 19px; line-height: 24px; color:#2a3048">
-                First item</p>
-            </div>
-            <div style="width: 180px; height: 83px; text-decoration:none; border:10px solid #3333ff; 
-                             margin:5px; border-radius:20px;  
-                             ">
-              <p
-                style="display: inline-block; width: 117px; height: 24px; font-size: 19px; line-height: 24px; color:#2a3048">
-                Second item</p>
-            </div>
-            <div style="width: 180px; height: 83px; text-decoration:none; border:10px solid #3333ff; 
-                             margin:5px; border-radius:20px;  
-                             ">
-              <p
-                style="display: inline-block; width: 117px; height: 24px; font-size: 19px; line-height: 24px; color:#2a3048">
-                Third item</p>
-            </div>
-            <div style="width: 180px; height: 83px; text-decoration:none; border:10px solid #3333ff; 
-                             margin:5px; border-radius:20px;  
-                             ">
-              <p
-                style="display: inline-block; width: 117px; height: 24px; font-size: 19px; line-height: 24px; color:#2a3048">
-                Fourth item</p>
-            </div>
-          </div>
-          <!-- Кнопка Start now -->
+        <div style="text-align: center; padding: 0 10px">
+          <div style="
+                height: 186px;
+                max-width: 100%;
 
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+              ">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+              style="box-sizing: border-box; border-collapse: collapse; margin: 0 auto">
+              <tr>
+                <td style="
+                      background: linear-gradient(to right, #1100ff, #8faaea76);
+                      border-radius: 20px;
+                      padding: 10px;
+                    ">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                    style="background: #ffffff; border-radius: 10px; width: 160px; height: 63px">
+                    <tr>
+                      <td align="center" valign="middle" style="
+                            font-size: 19px;
+                            line-height: 24px;
+                            color: #2a3048;
+                            margin: 0;
+                            border-radius: 10px;
+                          ">
+                        First item
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+              style="box-sizing: border-box; border-collapse: collapse; margin: 0 auto">
+              <tr>
+                <td style="
+                      background: linear-gradient(to right, #1100ff, #8faaea76);
+                      border-radius: 20px;
+                      padding: 10px;
+                    ">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                    style="background: #ffffff; border-radius: 10px; width: 160px; height: 63px">
+                    <tr>
+                      <td align="center" valign="middle" style="
+                            font-size: 19px;
+                            line-height: 24px;
+                            color: #2a3048;
+                            margin: 0;
+                            border-radius: 10px;
+                          ">
+                        Second item
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+              style="box-sizing: border-box; border-collapse: collapse; margin: 0 auto">
+              <tr>
+                <td style="
+                      background: linear-gradient(to right, #1100ff, #8faaea76);
+                      border-radius: 20px;
+                      padding: 10px;
+                    ">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                    style="background: #ffffff; border-radius: 10px; width: 160px; height: 63px">
+                    <tr>
+                      <td align="center" valign="middle" style="
+                            font-size: 19px;
+                            line-height: 24px;
+                            color: #2a3048;
+                            margin: 0;
+                            border-radius: 10px;
+                          ">
+                        Third item
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+              style="box-sizing: border-box; border-collapse: collapse; margin: 0 auto">
+              <tr>
+                <td style="
+                      background: linear-gradient(to right, #1100ff, #8faaea76);
+                      border-radius: 20px;
+                      padding: 10px;
+                    ">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                    style="background: #ffffff; border-radius: 10px; width: 160px; height: 63px">
+                    <tr>
+                      <td align="center" valign="middle" style="
+                            font-size: 19px;
+                            line-height: 24px;
+                            color: #2a3048;
+                            margin: 0;
+                            border-radius: 10px;
+                          ">
+                        Four item
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div style="margin-top: 20px; width: 200px; height: 56px; border-radius:30px;">
-          <a href="https://www.google.com/" style="background-color:#3333ff; color:#ffffff; text-decoration:none; 
-                                   line-height: 24px;  display:inline-block; 
-                                    font-size:18px;">
+        <button style="
+              margin-top: 20px;
+              margin-left: 25%;
+              max-width: 200px;
+              height: 56px;
+              border: none;
+              border-radius: 30px;
+              background-color: #3333ff;
+            ">
+          <a href="https://www.google.com/" style="
+                color: #ffffff;
+                text-decoration: none;
+                line-height: 24px;
+                display: inline-block;
+                font-size: 18px;
+              ">
             Start now
           </a>
-        </div>
+        </button>
       </section>
-
-      <!-- Секция с четырьмя элементами и кнопкой -->
-
-
-      <!-- Секция Popup вопроса -->
-      <section style="padding:20px; text-align:center;">
-        <div style="background-color:#e4fce1; border-radius:5px; margin:0 auto; display:inline-block; padding:10px;">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAGXRFWHRDcmVhdG9yAAAImXNMyU9JkpEAAABZFBMVEUAAAA7DwfD3/8zCAVFPAD/+/8AAOB13/z/////7/+T8AHn9v+k8f+o8v+q8/+s9P+00//V6/////+26v+47v+69f+8+P/B+v/C+/7////iCv7nH//vN//4fQD6yv6aYv///+d4v+g4P+k4f+z5f+78f/D9v/F+v/////K6P/L6f/M6v/O6//f9P/e9f/f9v/h+f/r+//u//+K9DhXAAAAgXRSTlMABONg9LKb+qVtJoYNK5qxlX6FDb0Zx7IHh+R16Aes+OkfrFL6i7vmHic4d39nIvSRc4Q7FvXOefA4vsu8n3K+rk1L2kJ1NN5uFo107beE2HXIYNRnXDXTXpSLVOclmVXGGMNpWC2uwA/A83AAAAAWJLR0QB/wIt3gAAAAlwSFlzAAAK4AAACuABQqw0mAAAAs0lEQVQYV2NgYGBgYGRABRgrN8QBkAGWdA61cEEiA5EEzUMIYGZm5eYHA6moMhPLS8uLJ6fEQRUf09fdIAvJxf9/dpgGPi4Y/GDAZGMdc5RcoLZ1AMV6+vvT0AwTi4Glm72mrhASlTiQE1Dk1agOd4VAa1UJpQwGq7QAjdjgEIAFy9EAIDcQaYnAMCK5b3rZRWNhmpbPfZNC31y1xk5KQkp+cAwC4ES1ejDK3UAAAAASUVORK5CYII="
-            alt="Up" style="display:block; margin:0 auto; width:40px; height:40px;" />
-          <p style="margin:10px 0 5px 0; font-family:Arial, sans-serif; color:#333333;">
+      <section style="
+            position: relative;
+            text-align: center;
+            box-sizing: border-box;
+            margin: 50px auto 0;
+            max-width: 550px;
+            height: 286px;
+            border-radius: 15px;
+            border: 4px solid #52bf66;
+          ">
+        <div style="
+              max-width: 198px;
+              height: 143px;
+              margin: 37px auto 15px;
+              text-align: center;
+              position: relative;
+            ">
+          <img src="/images/popup-circle.svg" alt="Popup-img"
+            style="max-width: 100px; height: 100px; display: block; margin: 0 auto" />
+          <p style="
+                max-width: 198px;
+                height: 28px;
+                margin: 15px 0 0 0;
+                font-size: 24px;
+                line-height: 28px;
+                font-weight: bold;
+                color: #353232;
+                text-align: center;
+              ">
             Popup question?
           </p>
-          <a href="https://www.google.com/" style="background-color:#28a745; color:#ffffff; text-decoration:none; 
-                    padding:10px 20px; border-radius:5px; font-family:Arial, sans-serif; 
-                    margin-right:10px;">
-            Yes
-          </a>
-          <a href="https://www.google.com/" style="background-color:#1a73e8; color:#ffffff; text-decoration:none; 
-                    padding:10px 20px; border-radius:5px; font-family:Arial, sans-serif;">
-            No
-          </a>
+        </div>
+
+        <div style="display: block; max-width: 410; height: 54px; margin: 0 auto">
+          <button style="
+                margin-right: 10px;
+                width: 200px;
+                height: 100%;
+                border-radius: 32px;
+                border: none;
+                background-color: #09b852;
+              ">
+            <a href="https://google.com" style="
+                  text-decoration: none;
+                  color: #ffffff;
+                  font-size: 18px;
+                  line-height: 28px;
+                  font-weight: normal;
+                ">Yes</a>
+          </button>
+          <button style="
+                width: 200px;
+                height: 100%;
+                border-radius: 32px;
+                border: none;
+                background-color: #1100ff;
+              ">
+            <a href="https://google.com" style="
+                  text-decoration: none;
+                  color: #ffffff;
+                  font-size: 18px;
+                  line-height: 28px;
+                  font-weight: normal;
+                ">No</a>
+          </button>
         </div>
       </section>
-
-      <!-- Подвал письма -->
-      <footer style="background-color:#f2f2f2; padding:20px; text-align:center;">
-        <div style="font-family:Arial, sans-serif; color:#666666; font-size:12px;">
-          <strong style="font-size:14px;">MyLogo</strong><br><br>
-          Lorem ipsum dolor sit amet,
-          <a href="https://www.google.com/" style="color:#1a73e8;">consectetur adipiscing elit</a>,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-          <br><br>
-          <em>Footer Information</em>
-        </div>
-      </footer>
-
     </main>
+    <footer style="max-width: 549px; margin: 50px auto 0; background-color: #f6f7f8; border-radius: 30px">
+      <div style="max-width: 100%; height: 60px; border-bottom: 1px solid #ffffff; display: table">
+        <div style="display: table-cell; vertical-align: middle">
+          <img src="/images/logo-footer.svg" alt="img-footer" style="
+                max-width: 108px;
+                height: 29px;
+                display: inline-block;
+                margin-left: 24px;
+                vertical-align: middle;
+              " />
+          <p style="
+                display: inline-block;
+                margin: 0 24px 0 266px;
+                font-size: 14px;
+                line-height: 22px;
+                color: #2a3048;
+                vertical-align: middle;
+              ">
+            Footer Information
+          </p>
+        </div>
+      </div>
+
+      <div style="max-width: 100%; height: 179px">
+        <p style="
+              padding: 22px 25px 0;
+              margin: 0;
+              text-align: justify;
+              font-size: 14px;
+              line-height: 18px;
+              font-weight: normal;
+              color: #aeaeae;
+            ">
+          Lorem ipsum dolor sit amet,
+          <a href="https://google.com">consectetur adipiscing elit</a> , sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+      </div>
+    </footer>
   </div>
 </body>
 
